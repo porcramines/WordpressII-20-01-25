@@ -1,0 +1,11 @@
+consulta: para la base de datos world
+1 de la tabla city solo mostrar el nombre  y el distrito
+SELECT name,district FROM city;
+
+2 de la tabla contry seleccionar solo el nombre, region, superficie de area
+SELECT name, region,surfacearea FROM country;
+
+3 hacer una consulta que permita ver que lenguaje usa cada continente
+SELECT name,LANGUAGE FROM country inner JOIN countrylanguage on country.Code=countrylanguage.CountryCode;
+
+
